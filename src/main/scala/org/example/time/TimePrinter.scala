@@ -11,4 +11,9 @@ class TimePrinter(formatter: DateTimeFormatter) {
   private def dateTimeToString(datetime: ZonedDateTime): String = {
     formatter.format(datetime)
   }
+
+  def now(timezone: String): String = {
+    val datetime = currentDateTime(timezone)
+    dateTimeToString(datetime)
+  }
 }
