@@ -7,4 +7,8 @@ class TimePrinter(formatter: DateTimeFormatter) {
     val zoneId = ZoneId.of(timezone)
     ZonedDateTime.now(zoneId)
   }
+
+  private def dateTimeToString(datetime: ZonedDateTime): String = {
+    formatter.format(datetime)
+  }
 }
