@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0m[what-time-is-it-build] Classpath dependencies List()[0m
-[0m[[0m[0mdebug[0m] [0m[0m[what-time-is-it-build] Dependencies from configurations List()[0m
-[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'what-time-is-it-build' to '/home/arnold/myspace/dev/what-time-is-it/project/.bloop/what-time-is-it-build.json'[0m
-[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/what-time-is-it-build.json[0m
+[debug] [what-time-is-it-build] Classpath dependencies List()
+[debug] [what-time-is-it-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'what-time-is-it-build' to '/home/arnold/myspace/dev/what-time-is-it/project/.bloop/what-time-is-it-build.json'
+[success] Generated .bloop/what-time-is-it-build.json
