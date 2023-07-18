@@ -1,0 +1,4 @@
+[debug] [what-time-is-it-build] Classpath dependencies List()
+[debug] [what-time-is-it-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'what-time-is-it-build' to '/home/arnold/myspace/dev/what-time-is-it/project/.bloop/what-time-is-it-build.json'
+[success] Generated .bloop/what-time-is-it-build.json
