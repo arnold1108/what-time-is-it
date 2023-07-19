@@ -23,7 +23,8 @@ class TimePrinter(formatter: DateTimeFormatter) {
     formatter.format(datetime)
   }
 
-  def now(timezone: String): String = {
+  def now(country: String): String = {
+    val timezone = countryToTimezone(country)
     val datetime = currentDateTime(timezone)
     dateTimeToString(datetime)
   }
