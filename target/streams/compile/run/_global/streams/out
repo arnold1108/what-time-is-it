@@ -1,10 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0mjava.time.DateTimeException: Invalid ID for region-based ZoneId, invalid format: Eastern Africa Time[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.time.ZoneRegion.checkName(ZoneRegion.java:152)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.time.ZoneRegion.ofId(ZoneRegion.java:117)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.time.ZoneId.of(ZoneId.java:411)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.time.ZoneId.of(ZoneId.java:359)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.example.time.TimePrinter.currentDateTime(TimePrinter.scala:7)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.example.time.TimePrinter.now(TimePrinter.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.IllegalArgumentException: nairobi is yet covered in this application[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.example.time.TimePrinter.countryToTimezone(TimePrinter.scala:19)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.example.time.TimePrinter.now(TimePrinter.scala:27)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.example.time.TimeApp$.delayedEndpoint$org$example$time$TimeApp$1(TimeApp.scala:7)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.example.time.TimeApp$delayedInit$body.apply(TimeApp.scala:4)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
@@ -34,4 +30,4 @@
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:1623)[0m
-[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) java.time.DateTimeException: Invalid ID for region-based ZoneId, invalid format: Eastern Africa Time[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) java.lang.IllegalArgumentException: nairobi is yet covered in this application[0m

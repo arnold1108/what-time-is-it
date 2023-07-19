@@ -1,1 +1,1 @@
-[[{},{}],{}]
+[[{"${BASE}/src/main/resources/logback.xml":["${BASE}/target/scala-2.13/classes/logback.xml"]},{"${BASE}/target/scala-2.13/classes/logback.xml":["${BASE}/src/main/resources/logback.xml"]}],{"${BASE}/src/main/resources/logback.xml":{"file":"file:///home/arnold/myspace/dev/what-time-is-it/src/main/resources/logback.xml","lastModified":1689770342203}}]

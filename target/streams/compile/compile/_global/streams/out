@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/arnold/myspace/dev/what-time-is-it/src/main/scala/org/example/time/TimeApp2.scala:10:8: TimeApp is already defined as object TimeApp[0m
+[0m[[0m[31merror[0m] [0m[0mobject TimeApp extends IOApp {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
